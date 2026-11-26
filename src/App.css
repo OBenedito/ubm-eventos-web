@@ -236,3 +236,23 @@
   border-radius: 8px;
   color: #7a271a;
 }
+
+.botao-perigo {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #b42318;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.botao-perigo:hover:not(:disabled) {
+  background: #912018;
+}
+
+.botao-perigo:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
